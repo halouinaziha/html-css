@@ -1,0 +1,108 @@
+
+body {
+    margin: 1%  1%;
+    font-family:Roboto;
+  background-color: hsl(37, 46%, 87%);
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color:green;
+    border: 1px blue;
+    border-radius: 5px;
+  }
+  
+  nav li {
+    display: inline-block;
+    border-right: 1px solid rgb(245, 244, 247);
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    padding: 15px 18px;
+    text-decoration: none;
+  }
+  
+  nav li a:hover {
+    background-color: #111;
+  }
+  .img {height: 50vh;width: 50%;
+
+  border-radius: 5px;
+  background-size: cover;
+  background-position:center;
+  }
+  form{
+    display: block;
+    text-align: center;
+  }
+  #table, th ,td{
+    border: 1px solid #111;
+  }
+  tr td:first-child, th:first-child {
+    border: 1px none #111;
+  }
+  div {
+    position: relative;
+    width: 100%;
+  }
+  
+  /* Make the image responsive */
+  div .about {
+    width: 100%;
+    height: auto;
+  }
+  div .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(60%, -85%);
+  
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 3px 10px;
+    border: none;
+    border-radius: 5px;
+    transition: .4s;
+  }
+  .btn:hover{
+    transform: scale(1.1);
+  }
+  
+  div .btn:hover {
+    background-color: rgb(160, 50, 50);
+  }
+  form +a {
+    text-decoration: none;
+  }
+  form +a:link{
+    color: rgb(30, 210, 87);
+  }
+  form +a:visited {
+    color: rgb(131, 131, 131);
+  }
+  form +a:hover{
+    color: chocolate;
+  }
+  form +a:active {
+    color: rgb(188, 182, 15);
+  }
+  section b{
+    display: block;
+    text-align: center;
+    background-color: bisque;
+    font-weight: 200px;
+    font-size: larger;
+    font-style: oblique;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid chocolate;
+    border-radius: 10px;
+    box-shadow: #E91E63 ;
+  }
